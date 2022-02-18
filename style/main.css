@@ -1,0 +1,187 @@
+:root{
+    --branco: white;
+    --azul:#0000cd;
+}
+.contato i{
+	flex: 1;
+	margin-left: 30%;
+    flex-flow: column-nowrap;
+	text-align: center;
+	font-size: 1.5em;
+    background: var(--azul);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* elementos base*/
+body{
+    background: var(--branco);
+    font-family: 'Arial', Times, serif;
+    color: white;
+    background-color: var(--azul);
+    background-image: linear-gradient( to right, white -20%,#eab676); }
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+    color: var(--branco);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+.buttonPort  { 
+    margin-top:30px;
+    border: 2px solid white;
+    height: 50px;
+    width: 140px;
+    background:transparent;
+    color:white;
+    background-repeat:no-repeat;
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color:#fff;
+}
+
+.filme-principal {
+    font-size:16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url("../img/Fundo.jpg");
+
+    height: 400px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-top: 15%;
+}
+
+.filme-principal .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 1s ease all;
+}
+
+.botao:hover{
+    background: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+header{
+
+    background-color: var(--azul);
+    background-image: linear-gradient( to right, white -20%,#eab676); }
+
+.headerdois{
+    background-color: var(--azul);
+}
+.container {
+  
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+.Div{
+    color:	#696969;
+    margin-left: 40%;
+    font-size:30px;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 5;
+}
+.Containernovo{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    height: 400px;
+    width: 500px;
+    background-image: url("../img/novo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    filter:grayscale(0.5);  
+      color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.Card-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:white;
+
+    border: 1px solid white;
+    text-decoration:none;
+    height: 50px;
+    width: 100px;
+    
+}
+ .espaco{
+margin: 10px;
+}
+.Card-wrapper::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border: 1px solid white;
+    opacity:0 ;
+ 
+    transition:0.3s;
+
+}
