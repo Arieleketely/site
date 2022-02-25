@@ -23,7 +23,7 @@ body{
     color: white;
     background-color: var(--azul);
     background-image: linear-gradient( to right, white -20%,#eab676); }
-}
+
 
 header .container {
   display: flex;
@@ -138,6 +138,21 @@ header{
     justify-content: center;
     align-items: center;
 }
+.ContainernovoDois{
+ margin-top: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.wrapper div{ 
+    display:flex;
+     background: #fff;
+    border-radius: 10%;
+  justify-content: center;
+    align-items: center;
+}
+
 .Card{
     height: 400px;
     width: 500px;
@@ -154,7 +169,20 @@ header{
     cursor:pointer;
     transition:0.3s;
 }
+.CardDois{
 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+.CardTres{
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Arial Black', Times;
+    font-size: 20px;
+}
 .Card-wrapper{
     text-align: center;
     display: flex;
@@ -184,4 +212,11 @@ margin: 10px;
  
     transition:0.3s;
 
+}
+      
+        .wrapper {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 10px;
+   grid-row-gap: 1em;
 }
