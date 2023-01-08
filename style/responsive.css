@@ -4,7 +4,8 @@
         flex-direction: column;
     }
     .botao {
-        margin-top: 5px;
+        margin-top:0.1cm;
+        
         width: 200px;
     }
 }
